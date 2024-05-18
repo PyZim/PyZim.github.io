@@ -1,0 +1,19 @@
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 150px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.card-img {
+    height: 100%;
+    width: auto;
+    filter: brightness(0.6);
+}
