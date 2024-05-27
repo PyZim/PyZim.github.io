@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}<title>PyCon Zimbabwe 2024</title>{% endblock title %}
+
+{% block content %}
+
+ <section id="hero">
+      <div class="card text-bg-dark">
+          <img src="{{ SITEURL }}/theme/img/cbd.jpg" class="card-img" alt="img">
+        <div class="card-img-overlay hero-container">
+          <h1 class="card-title text-capitalize text-uppercase">PyCon Zimbabwe 2024</h1>
+          <h1 class="card-title">Annual Conference for <span style="color:#EF3340;">Pythonistas</span></h1>
+          <p class="card-text">This is the biggest gathering of python developers and enthusiast</p>
+          <p class="card-text"><small>31 October - 2 November 2024</small></p>
+          <a href="#" class="btn btn-danger">Sponsors</a> <br>
+          <a href="https://www.papercall.io/pyconzim2024" class="btn btn-outline-light">Submit a Talk</a>
+        </div>
+      </div>
+    </section>
+
+{% endblock content %}
