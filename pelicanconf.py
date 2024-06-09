@@ -1,11 +1,22 @@
-AUTHOR = 'Ronald'
-SITENAME = 'PyCon Zimbabwe'
+import os
+import sys
+
+
+sys.path.append(os.curdir)
+
+from volunteers_conf import VOLUNTEERS
+from speaker_conf import SPEAKERS
+
+AUTHOR = 'Humphrey'
+
+SITENAME = 'PyCon-Zimbabwe'
 
 SITEURL = ""
 
-INDEX_SAVE_AS = "blog_index.html"
+INDEX_SAVE_AS = "news.html"
 
-THEME = "theme"
+THEME = "../event-agency-theme"
+# THEME = "notmyidea"
 
 PATH = "content"
 
@@ -30,8 +41,10 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Facebook", "#", "fab fa-facebook-f"),
+    ("Twitter", "#", "fab fa-twitter"),
+    ("LinkedIn", "#", "fab fa-linkedin-in"),
+    ("Mastodon", "#", "fab fa-mastodon"),
 )
 
 DEFAULT_PAGINATION = 10
@@ -39,19 +52,31 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 #
-STATIC_PATHS = ["content/pages"]
 
-TEMPLATE_PAGES = {
-        "pages/index.html": "index.html",
-        "pages/sponsors.html": "sponsors.html"
-        }
+# STatic files
+CSS_FILE = "styles.css"
+# CSS_FILE = "lux.css"
 
-
-# Conference related settings
-#
-CONFERENCE_NAME = "PyCon Zimbabwe 2024"
-
+# Menu
 MENU_ITEMS = [
-        ("talks", "Talks"),
-        ("sponsors", "Sponsors")
+        ("about", "About"),
+        ("venue", "Venue"),
+        ("tickets", "Tickets"),
+        ("code-of-conduct", "Code-of-Conduct"),
+        ("talks", "programme"),
+        ("sponsors", "Sponsoring"),
+        ("news", "News"),
+        ("team", "Team"),
         ]
+
+# TEMPLATE_PAGES = {
+        # "pages/conduct.html": "conduct.html",
+        # }
+
+# Conference Details
+#
+CONFERENCE_NAME = "PyCon Zimbabwe"
+CONFERENCE_DATES = "31 October-2 November"
+CONFERENCE_YEAR = "2024"
+CONFERENCE_VENUE = "Cresta Oasis Hotel"
+CONFERENCE_LOGO = ""
