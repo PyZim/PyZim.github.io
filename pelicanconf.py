@@ -27,7 +27,7 @@ DEFAULT_LANG = 'en'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+# TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
@@ -53,20 +53,24 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 #
 
+#
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
 # STatic files
 CSS_FILE = "styles.css"
 # CSS_FILE = "lux.css"
 
 # Menu
 MENU_ITEMS = [
-        ("about", "About"),
-        ("venue", "Venue"),
-        ("tickets", "Tickets"),
-        ("code-of-conduct", "Code-of-Conduct"),
-        ("talks", "programme"),
-        ("sponsors", "Sponsoring"),
-        ("news", "News"),
-        ("team", "Team"),
+        # ("about", "About"),
+        # ("venue", "Venue"),
+        # ("tickets", "Tickets"),
+        ("code-of-conduct.html", "Code-of-Conduct"),
+        # ("talks", "programme"),
+        # ("sponsors", "Sponsoring"),
+        ("news.html", "News"),
+        ("team.html", "Team"),
         ]
 
 # TEMPLATE_PAGES = {
