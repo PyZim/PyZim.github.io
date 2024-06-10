@@ -15,7 +15,7 @@ SITEURL = ""
 
 INDEX_SAVE_AS = "news.html"
 
-THEME = "../event-agency-theme"
+THEME = "event-agency-theme"
 # THEME = "notmyidea"
 
 PATH = "content"
