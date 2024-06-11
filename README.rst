@@ -12,27 +12,23 @@ Point your web browser to the `PyConZim Website <https://github.com/PyZim/PyZim.
 
 Then clone the source for your fork and add the upstream project as a Git remote:
 
-Clone the repository.
+Clone the repository::
 
-  .. code:: bash
-     git clone https://github.com/YOUR-USERNAME/PyZim.github.io
+     $ git clone https://github.com/YOUR-USERNAME/PyZim.github.io
 
-     cd PyZim.github.io
+     $ cd PyZim.github.io
 
-Switch to the `Pelican` branch.
+Switch to the `Pelican` branch::
 
-  .. code:: bash
-     git checkout Pelican 
+     $ git checkout Pelican 
 
-Install dependencies.
+Install dependencies::
 
-  .. code:: bash
-     pip install -r requirements.txt
+     $ pip install -r requirements.txt
 
-Run the devserver.
+Run the devserver::
 
-  .. code:: bash
-     pelican -dlr --port 8000
+     $ pelican -dlr --port 8000
 
 Now you can browse the website at `http://localhost:8000/`. To stop the server,
 hit Ctl-C 
@@ -41,21 +37,19 @@ hit Ctl-C
 Adding Features
 ===============
 
-Create a topic branch for your fix or feature:
+Create a topic branch for your fix or feature::
 
-  .. code:: bash
-     git checkout -b name-of-your-fix-or-feature
+     $ git checkout -b name-of-your-fix-or-feature
 
 -----------------------
 Submitting your changes
 -----------------------
 
-Commit your changes and push your topic branch:
+Commit your changes and push your topic branch::
 
-  .. code:: bash
-     git add .
-     git commit -m "Your detailed description of your changes"
-     git push origin name-of-your-fix-or-feature
+     $ git add .
+     $ git commit -m "Your detailed description of your changes"
+     $ git push origin name-of-your-fix-or-feature
 
 Finally, browse to your repository fork on GitHub and submit a pull request.
 
@@ -66,8 +60,8 @@ Deployment
 ==========
 
 For deploying the website, the rendered HTML needs to be pushed to the `gh-pages`
-branch. This can be done via the `Makefile` and the `ghp-import` script:
-  .. code:: bash
+branch. This can be done via the `Makefile` and the `ghp-import` script::
+
     $ pelican content -o output -s pelicanconf.py
     $ ghp-import output -b gh-pages
     $ git push origin gh-pages
