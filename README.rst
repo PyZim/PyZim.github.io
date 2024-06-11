@@ -1,32 +1,76 @@
------
-Usage
------
+----------------------
+PyCon Zimbabwe Website
+----------------------
 
-- First clone this repo to your computer
+Repository for the source code of the PyConZim website.
 
-- cd into Pyzim.github.io
+===========
+Development
+===========
 
-- create your virtual environment and activate it 
+Point your web browser to the `PyConZim Website <https://github.com/PyZim/PyZim.github.io>`_ repository and tap the Fork button at top-right.
 
-- run ```pip install -r requirements``` to install pelican with markdown support
+Then clone the source for your fork and add the upstream project as a Git remote:
 
-- Start writting some content in markdown or restructured text inside the content directory. 
-  If you want to write content for pages as opposed to blog articles save the files as markdown files 
-  inside the content/pages directory
-
-- When your are finished writting your content you can view your site by running: 
+Clone the repository.
 
   .. code:: bash
+     git clone https://github.com/YOUR-USERNAME/PyZim.github.io
 
-  pelican -lr  
+     cd PyZim.github.io
 
-  This will generate some html for your and start the server at port 8000 . You can view your site at http://localhost:8000
+Switch to the `Pelican` branch.
 
-- To use the custom theme that we are using for the event you can download it `here: <https://github.com/Pyzim/event-agency-theme>`_ 
+  .. code:: bash
+     git checkout Pelican 
+
+Install dependencies.
+
+  .. code:: bash
+     pip install -r requirements.txt
+
+Run the devserver.
+
+  .. code:: bash
+     pelican -dlr --port 8000
+
+Now you can browse the website at `http://localhost:8000/`. To stop the server,
+hit Ctl-C 
+
+===============
+Adding Features
+===============
+
+Create a topic branch for your fix or feature:
+
+  .. code:: bash
+     git checkout -b name-of-your-fix-or-feature
+
+-----------------------
+Submitting your changes
+-----------------------
+
+Commit your changes and push your topic branch:
+
+  .. code:: bash
+     git add .
+     git commit -m "Your detailed description of your changes"
+     git push origin name-of-your-fix-or-feature
+
+Finally, browse to your repository fork on GitHub and submit a pull request.
 
 
-You will then need to copy this directory to the project folder and edit pelicanconf.py and change the THEME setting to: 
 
- .. code:: python
-  
-  THEME = "event-agency-theme"
+==========
+Deployment
+==========
+
+For deploying the website, the rendered HTML needs to be pushed to the `gh-pages`
+branch. This can be done via the `Makefile` and the `ghp-import` script:
+  .. code:: bash
+    $ pelican content -o output -s pelicanconf.py
+    $ ghp-import output -b gh-pages
+    $ git push origin gh-pages
+
+The current version should be live now at https://zw.pycon.org
+
