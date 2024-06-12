@@ -3,6 +3,7 @@
 --zw-red: #EF3340;
 --zw-yellow:#fce300;
 --zw-black:#000000;
+--zw-blue: #0000FF;
 }
 
 .bg-dark-zw {
@@ -11,7 +12,7 @@
 }
 
 a {
-  color:var(--zw-yellow);
+  color:var(--zw-blue);
   text-decoration: underline;
 }
 a:hover {
