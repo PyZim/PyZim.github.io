@@ -14,7 +14,7 @@ Then clone the source for your fork and add the upstream project as a Git remote
 
 Clone the repository::
 
-     $ git clone https://github.com/YOUR-USERNAME/PyZim.github.io
+     $ git clone --recurse-submodules https://github.com/YOUR-USERNAME/PyZim.github.io
 
      $ cd PyZim.github.io
 
