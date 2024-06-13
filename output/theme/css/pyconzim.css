@@ -3,7 +3,7 @@
 --zw-red: #EF3340;
 --zw-yellow:#fce300;
 --zw-black:#000000;
---zw-blue: #0000FF;
+--bs-link-color: #767676;
 }
 
 .bg-dark-zw {
@@ -11,10 +11,14 @@
     background-color:var(--zw-black) !important;
 }
 
+
 a {
-  color:var(--zw-blue);
-  text-decoration: underline;
+  color: #4e73df;
+  text-decoration: none;
+  background-color: transparent;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color:#224abe;
+  text-decoration:underline;
 }
+
