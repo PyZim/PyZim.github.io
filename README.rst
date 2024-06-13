@@ -68,3 +68,9 @@ branch. This can be done via the `Makefile` and the `ghp-import` script::
 
 The current version should be live now at https://zw.pycon.org
 
+=========================
+Changing the HTML and CSS
+=========================
+
+The templates and css we are using are defined in the directory PyZim.github.io/event-agency-theme/. To change the css you can edit the stylesheet pyconzim.css located in Pyzim.github.io/event-agency-theme/static/css/pyconzim.css. The event-agency-theme is ported to `Pelican <https://docs.getpelican.com/`_ from `Startbootstrap's Agency Theme <https://startbootstrap.com/previews/agency`_.  
+
