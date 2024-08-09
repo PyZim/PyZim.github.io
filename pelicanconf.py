@@ -71,6 +71,7 @@ MENU_ITEMS = [
         # ("sponsors", "Sponsoring"),
         ("news.html", "News"),
         ("team.html", "Team"),
+        ("safety-and-health.html", "Health-Policy"),
         ]
 
 # TEMPLATE_PAGES = {
