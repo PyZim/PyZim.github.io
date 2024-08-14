@@ -4,7 +4,7 @@
 
 
 Pycon Zimbabwe will take place at Cresta Oasis Hotel, Harare on the 1st and 2nd of November 2024.
-    * `CFP is open! <https://papercall.io/pyconzim2024>`_ The deadline for submissions is July 31, 2024 00:00 UTC 
+    *  **CFP is now closed** . We are currently reviewing all talks and workshops. We expect to finish by the end of August.
     * To join our sponsors, please write to zim.pycon@gmail.com
     * To subscribe to our mailing list for news and updates, `click here <https://groups.google.com/pyzim>`_ 
 
