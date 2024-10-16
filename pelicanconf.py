@@ -42,10 +42,10 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("Facebook", "#", "fab fa-facebook-f"),
-    ("Twitter", "#", "fab fa-twitter"),
-    ("LinkedIn", "#", "fab fa-linkedin-in"),
-    ("Mastodon", "#", "fab fa-mastodon"),
+    ("Facebook", "https://www.facebook.com/pyconzim/", "fab fa-facebook-f"),
+    ("Twitter", "https://x.com/pycon_zim", "fab fa-twitter"),
+    ("LinkedIn", "https://www.linkedin.com/company/pycon-zimbabwe", "fab fa-linkedin-in"),
+    ("Mastodon", "https://fosstodon.org/@pyconzim", "fab fa-mastodon"),
 )
 
 DEFAULT_PAGINATION = 10
