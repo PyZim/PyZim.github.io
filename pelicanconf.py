@@ -67,6 +67,7 @@ MENU_ITEMS = [
         # ("venue", "Venue"),
         # ("tickets", "Tickets"),
         ("code-of-conduct.html", "Code-of-Conduct"),
+        ("diversity.html", "Diversity"),
         # ("talks", "programme"),
         # ("sponsors", "Sponsoring"),
         ("news.html", "News"),
