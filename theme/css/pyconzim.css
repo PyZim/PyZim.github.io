@@ -1,0 +1,20 @@
+:root {
+--zw-green:#009739; 
+--zw-red: #EF3340;
+--zw-yellow:#fce300;
+--zw-black:#000000;
+--zw-link-color: blue;
+}
+
+.bg-dark-zw {
+    --bs-bg-opacity: 10;
+    background-color:var(--zw-black) !important;
+}
+
+a {
+  color:var(--zw-link-color);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--zw-link-color);
+}
