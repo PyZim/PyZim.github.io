@@ -1,0 +1,31 @@
+DAY1 = [
+("07:30-08:30", "Registration", ""),
+("08:30-09:00", "KeyNote", ""),
+("09:40-10:10", "Speaker 2", ""),
+("10:20-10:50", "Tea Break", ""),
+("10:50-11:20", "PDF: The Perfect Delivery Format (for Malware)", "Nunudzai Mrewa"),
+("11:30-12:00", "Privacy by Design: Differential Privacy for Secure Machine Learning", "Emeka Obiefuna"),
+("13:00-14:00", "Lunch", ""),
+("14:00-14:30", "Using AI to solve issue in agriculture what tool to use", "daniel etukudo"),
+("14:40-15:10", "Unlocking the Power of Retrieval-Augmented Generation (RAG) with Python", "Sam Zana "),
+("15:20-15:30", "Coffee Break", ""),
+("15:30-16:00", "Cloud Track", ""),
+("16:10-16:55", "Docker Essentials for Python Developers", "Vuyisile Ndlovu "),
+("17:00-17:30", "Navigating the Landscape of Data Science Model Deployment: From Console to Chat Interfaces", "Benedict Dlamini "),
+]
+
+DAY2 = [
+("07:30-08:30", "Registration", ""),
+("08:30-09:00", "KeyNote", ""),
+("09:40-10:10", "Visual Vibes Meet Python Power: Integrating Python with KNIME for Data Magic", "Leonard Mutambanengwe "),
+("10:20-10:50", "Tea Break", ""),
+("10:50-11:20", "Unlocking the power of Python generators: A developer's friend", "Nunudzai Mrewa"),
+("11:30-12:00", "Building a Flavourful WhatsApp Chat Analysis Tool ", "Andile Jaden Mbele "),
+("13:00-14:00", "Lunch", ""),
+("14:00-14:30", "The map of your AI career", ""),
+("14:40-15:10", "Breaking Barriers with Python: How Simplicity and Versatility Open Up AI for All", "Brandon T Bande /Harare "),
+("15:20-15:30", "Coffee Break", ""),
+("15:30-16:00", "Exploring Django Ninja: Fast, Async-Ready APIs with Ease", "Johanan Oppong Amoateng /Kumasi,Ghana"),
+("16:10-16:55", "FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja", "Julius Boakye "),
+("17:00-17:30", "HTMX: Making Web Dev Fun Again", "Michael Nyamande "),
+]

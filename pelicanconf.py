@@ -6,6 +6,7 @@ sys.path.append(os.curdir)
 
 from volunteers_conf import VOLUNTEERS
 from speaker_conf import SPEAKERS
+from schedule_conf import DAY1, DAY2
 
 AUTHOR = 'Humphrey'
 
@@ -70,6 +71,7 @@ MENU_ITEMS = [
         ("diversity.html", "Diversity"),
         # ("talks", "programme"),
         # ("sponsors", "Sponsoring"),
+        ("schedule.html", "Schedule "),
         ("news.html", "News"),
         ("team.html", "Team"),
         ("safety-and-health.html", "Health-Policy"),
