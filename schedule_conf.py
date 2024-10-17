@@ -1,4 +1,16 @@
 DAY1 = [
+("0730-0830", "Registration", ""),
+("0830-0930", "PyCon Zimbabwe Open Spaces", ""),
+("0940-1010","Workshop 1","Speaker 1"),
+("1020-1050", "Tea Break, Refreshments & Networking", ""),
+("1050-1250", "API 101 API fundamentals", "Felix Jumason"),
+("1300-1400", "Lunch Break", ""),
+("1400-1510", "Data in the Wild!Normalized Difference Vegetation Index Temporal Analysis of Hwange National Park Using Deep Learning and Satellite Data", "Ditiro Rampate "),
+("1520-1520", "Coffee Break", ""),
+("1530-1730", "Workshop 1: Continues", "Speaker"),
+]
+
+DAY2 = [
 ("07:30-08:30", "Registration", ""),
 ("08:30-09:00", "KeyNote", ""),
 ("09:40-10:10", "Speaker 2", ""),
@@ -14,7 +26,7 @@ DAY1 = [
 ("17:00-17:30", "Navigating the Landscape of Data Science Model Deployment: From Console to Chat Interfaces", "Benedict Dlamini "),
 ]
 
-DAY2 = [
+DAY3 = [
 ("07:30-08:30", "Registration", ""),
 ("08:30-09:00", "KeyNote", ""),
 ("09:40-10:10", "Visual Vibes Meet Python Power: Integrating Python with KNIME for Data Magic", "Leonard Mutambanengwe "),
