@@ -72,6 +72,7 @@ MENU_ITEMS = [
         # ("talks", "programme"),
         # ("sponsors", "Sponsoring"),
         ("schedule.html", "Schedule "),
+        ("https://www.ticketbox.co.zw/events/pycon-zimbabwe-2024", "Tickets"),
         ("news.html", "News"),
         ("team.html", "Team"),
         ("safety-and-health.html", "Health-Policy"),
