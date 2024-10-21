@@ -36,7 +36,7 @@
     Tutorials and Workshops - 31 October, 2024
     Main Conference Days - Friday 1 November & Saturday 2 November, 2024
     </p>
-    <p><a href="https://pyconzim.co.zw/shedule.html">View the schedule</a></p>
+    <p><a href="https://pyconzim.co.zw/schedule.html">View the schedule</a></p>
                 </div>
             </div>
         </div>
