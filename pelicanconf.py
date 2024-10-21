@@ -12,7 +12,8 @@ AUTHOR = 'Humphrey'
 
 SITENAME = 'PyCon-Zimbabwe'
 
-SITEURL = ""
+
+# :SITEURL = "https://pyconzim.co.zw"
 
 INDEX_SAVE_AS = "news.html"
 
