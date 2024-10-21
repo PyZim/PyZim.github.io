@@ -7,6 +7,7 @@ sys.path.append(os.curdir)
 from volunteers_conf import VOLUNTEERS
 from speaker_conf import SPEAKERS
 from schedule_conf import DAY1, DAY2, DAY3
+from sponsor_conf import COMMUNITY_SPONSORS, PLATINUM_SPONSORS
 
 AUTHOR = 'Humphrey'
 
@@ -71,7 +72,7 @@ MENU_ITEMS = [
         ("code-of-conduct.html", "Code-of-Conduct"),
         ("diversity.html", "Diversity"),
         # ("talks", "programme"),
-        # ("sponsors", "Sponsoring"),
+        ("sponsors.html", "Sponsors"),
         ("schedule.html", "Schedule "),
         ("https://www.ticketbox.co.zw/events/pycon-zimbabwe-2024", "Tickets"),
         ("news.html", "News"),
