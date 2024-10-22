@@ -5,7 +5,7 @@ DAY1 = [
 ("1020-1050", "Tea Break, Refreshments & Networking", ""),
 ("1050-1250", "API 101 API fundamentals", "Felix Jumason"),
 ("1300-1400", "Lunch Break", ""),
-("1400-1510", "Data in the Wild!Normalized Difference Vegetation Index Temporal Analysis of Hwange National Park Using Deep Learning and Satellite Data", "Ditiro Rampate "),
+("1400-1510", "Workshop", ""),
 ("1520-1520", "Coffee Break", ""),
 ("1530-1730", "Workshop 1: Continues", "Speaker"),
 ]
