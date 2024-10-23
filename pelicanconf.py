@@ -6,12 +6,15 @@ sys.path.append(os.curdir)
 
 from volunteers_conf import VOLUNTEERS
 from speaker_conf import SPEAKERS
+from schedule_conf import DAY1, DAY2, DAY3
+from sponsor_conf import COMMUNITY_SPONSORS, PLATINUM_SPONSORS
 
 AUTHOR = 'Humphrey'
 
 SITENAME = 'PyCon-Zimbabwe'
 
-SITEURL = ""
+
+# :SITEURL = "https://pyconzim.co.zw"
 
 INDEX_SAVE_AS = "news.html"
 
@@ -41,10 +44,10 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("Facebook", "#", "fab fa-facebook-f"),
-    ("Twitter", "#", "fab fa-twitter"),
-    ("LinkedIn", "#", "fab fa-linkedin-in"),
-    ("Mastodon", "#", "fab fa-mastodon"),
+    ("Facebook", "https://www.facebook.com/pyconzim/", "fab fa-facebook-f"),
+    ("Twitter", "https://x.com/pycon_zim", "fab fa-twitter"),
+    ("LinkedIn", "https://www.linkedin.com/company/pycon-zimbabwe", "fab fa-linkedin-in"),
+    ("Mastodon", "https://fosstodon.org/@pyconzim", "fab fa-mastodon"),
 )
 
 DEFAULT_PAGINATION = 10
@@ -67,8 +70,11 @@ MENU_ITEMS = [
         # ("venue", "Venue"),
         # ("tickets", "Tickets"),
         ("code-of-conduct.html", "Code-of-Conduct"),
+        ("diversity.html", "Diversity"),
         # ("talks", "programme"),
-        # ("sponsors", "Sponsoring"),
+        ("sponsors.html", "Sponsors"),
+        ("schedule.html", "Schedule "),
+        ("https://www.ticketbox.co.zw/events/pycon-zimbabwe-2024", "Tickets"),
         ("news.html", "News"),
         ("team.html", "Team"),
         ("safety-and-health.html", "Health-Policy"),
