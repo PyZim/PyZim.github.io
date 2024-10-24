@@ -67,7 +67,7 @@ CSS_FILE = "styles.css"
 # Menu
 MENU_ITEMS = [
         # ("about", "About"),
-        # ("venue", "Venue"),
+        ("venue.html", "Venue"),
         # ("tickets", "Tickets"),
         ("code-of-conduct.html", "Code-of-Conduct"),
         ("diversity.html", "Diversity"),
@@ -78,6 +78,7 @@ MENU_ITEMS = [
         ("news.html", "News"),
         ("team.html", "Team"),
         ("safety-and-health.html", "Health-Policy"),
+        ("mission-vision-and-objectives.html", "Mission-Vision-Objectives")
         ]
 
 # TEMPLATE_PAGES = {
