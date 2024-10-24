@@ -7,7 +7,7 @@ sys.path.append(os.curdir)
 from volunteers_conf import VOLUNTEERS
 from speaker_conf import SPEAKERS
 from schedule_conf import DAY1, DAY2, DAY3
-from sponsor_conf import COMMUNITY_SPONSORS, PLATINUM_SPONSORS, BRONZE_SPONSOR
+from sponsor_conf import COMMUNITY_SPONSORS, PLATINUM_SPONSORS, BRONZE_SPONSORS
 
 AUTHOR = 'Humphrey'
 
