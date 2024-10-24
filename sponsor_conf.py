@@ -2,8 +2,8 @@ PLATINUM_SPONSORS = [
     ("psf-logo.png", "https://www.python.org/psf-landing/"),
 ]
 
-BRONZE_SPONSOR=[
-    "bpd-logo.png", "https://blackpythondevs.com"
+BRONZE_SPONSORS=[
+    ("bpd-logo.png", "https://blackpythondevs.com")
 ]
 
 COMMUNITY_SPONSORS = [
