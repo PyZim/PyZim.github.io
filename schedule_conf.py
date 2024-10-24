@@ -31,7 +31,7 @@ DAY3 = [
 ("08:30-09:00", "KeyNote", ""),
 ("09:40-10:10", "Visual Vibes Meet Python Power: Integrating Python with KNIME for Data Magic", "Leonard Mutambanengwe "),
 ("10:20-10:50", "Tea Break", ""),
-("10:50-11:20", "Unlocking the power of Python generators: A developer's friend", "Nunudzai Mrewa"),
+("10:50-11:20", "Unlocking the power of Python generators: A developer's friend", "Doreen Peace Nangira Wanyama"),
 ("11:30-12:00", "Building a Flavourful WhatsApp Chat Analysis Tool ", "Andile Jaden Mbele "),
 ("13:00-14:00", "Lunch", ""),
 ("14:00-14:30", "The map of your AI career", ""),
