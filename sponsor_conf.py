@@ -7,5 +7,6 @@ COMMUNITY_SPONSORS = [
     ("linux-foundation.png", "https://www.linuxfoundation.org/"),
     ("defna-logo.png", "https://www.defna.org/about/"),
     ("aws-logo.png", "https://aws.amazon.com"),
+    ("bpd-logo.png", "https://aws.amazon.com"),
 ]
 
