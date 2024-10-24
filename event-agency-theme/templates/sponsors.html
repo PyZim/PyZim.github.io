@@ -12,6 +12,9 @@
       </p>
     </div>
     <div class="row">
+      <div class="text-center">
+        <h1 class="section-heading text-uppercase">Platinum Sponsor</h1>
+      </div>
       {% for logo, link in PLATINUM_SPONSORS %}
       <div class="col-lg-12 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -26,15 +29,26 @@
       </div>
       {% endfor %} {% for logo, link in BRONZE_SPONSORS %}
       <div class="col-lg-12 col-sm-6 mb-4">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">
+            Bronze + Diversity Sponsor
+          </h2>
+        </div>
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ link }}">
             <img
               class="img-fluid"
-              src="{{ site_url }}/theme/images/img/sponsors/{{ logo }}"
+              src="{{ site_url
+            }}/theme/images/img/sponsors/{{ logo }}"
               alt="..."
+              width="200"
+              height="200"
             />
           </a>
         </div>
+      </div>
+      <div class="text-center">
+        <h3 class="section-heading text-uppercase">Community Sponsors</h3>
       </div>
       {% endfor %} {% for logo, link in COMMUNITY_SPONSORS %}
       <div class="col-lg-4 col-sm-6 mb-4">
