@@ -66,7 +66,7 @@ CSS_FILE = "styles.css"
 
 # Menu
 MENU_ITEMS = [
-        # ("about", "About"),
+        ("about", "About"),
         ("venue.html", "Venue"),
         # ("tickets", "Tickets"),
         ("code-of-conduct.html", "Code-of-Conduct"),
