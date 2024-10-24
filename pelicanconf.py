@@ -66,19 +66,15 @@ CSS_FILE = "styles.css"
 
 # Menu
 MENU_ITEMS = [
-        ("about", "About"),
+        ("about.html", "About"),
         ("venue.html", "Venue"),
-        # ("tickets", "Tickets"),
-        ("code-of-conduct.html", "Code-of-Conduct"),
-        ("diversity.html", "Diversity"),
-        # ("talks", "programme"),
-        ("sponsors.html", "Sponsors"),
-        ("schedule.html", "Schedule "),
         ("https://www.ticketbox.co.zw/events/pycon-zimbabwe-2024", "Tickets"),
-        ("news.html", "News"),
+        ("schedule.html", "Schedule "),
+        ("sponsors.html", "Sponsors"),
+        ("policies.html", "Policies"),
         ("team.html", "Team"),
-        ("safety-and-health.html", "Health-Policy"),
-        ("mission-vision-and-objectives.html", "Mission-Vision-Objectives")
+        # ("diversity.html", "Diversity"),
+        # ("news.html", "News"),
         ]
 
 # TEMPLATE_PAGES = {
