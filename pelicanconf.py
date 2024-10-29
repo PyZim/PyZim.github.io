@@ -72,8 +72,8 @@ MENU_ITEMS = [
         ("schedule.html", "Schedule "),
         ("sponsors.html", "Sponsors"),
         ("policies.html", "Policies"),
-        ("team.html", "Team"),
-        # ("diversity.html", "Diversity"),
+        ("team.html", "Team"),        
+        ("diversity.html", "Oppurtunity Grant"),
         # ("news.html", "News"),
         ]
 
