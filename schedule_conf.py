@@ -1,13 +1,13 @@
 DAY1 = [
 ("0730-0830", "Registration", ""),
-("0830-0930", "PyCon Zimbabwe Open Spaces", ""),
-("0940-1010","Workshop 1","Speaker 1"),
+("0830-0930", "Django Girls", ""),
+("0940-1010","Django Girls",""),
 ("1020-1050", "Tea Break, Refreshments & Networking", ""),
-("1050-1250", "API 101 API fundamentals", "Felix Jumason"),
+("1050-1250", "Django Girls", ""),
 ("1300-1400", "Lunch Break", ""),
-("1400-1510", "Workshop", ""),
+("1400-1510", "Django Girls", ""),
 ("1520-1520", "Coffee Break", ""),
-("1530-1730", "Workshop 1: Continues", "Speaker"),
+("1530-1730", "Django Girls", ""),
 ]
 
 DAY2 = [
